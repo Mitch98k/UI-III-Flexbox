@@ -70,22 +70,33 @@ h1, h2, h3, h4, h5 {
 nav{
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 100px;
 }
 .topSectionClass h1{
-	
+	font-size: 80px;
+	width: 20%;
 }
 .topSectionClass div{
-	
+	display: flex;
+	justify-content: space-evenly;
 }
 .button{
+	display: flex;
+	flex-direction: column;
 	height: 30px;
 	width: 150px;
-	margin-right: 450px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
-img{
-	
+.middleSectionClass div{
+	display: flex;
 }
-.middleSectionClass div p{
-	
+.div1{
+	display:flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.div2{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
