@@ -78,25 +78,53 @@ nav{
 }
 .topSectionClass div{
 	display: flex;
+	justify-content: space-around;
+}
+.topSectionClass{
+	display: flex;
 	justify-content: space-evenly;
 }
 .button{
 	display: flex;
-	flex-direction: column;
+	align-items: center;
 	height: 30px;
 	width: 150px;
 	margin-bottom: 100px;
 }
 .middleSectionClass div{
 	display: flex;
+	justify-content: space-evenly;
+} 
+.div{
+	display: flex;
+	flex-direction: column;
 }
 .div1{
-	display:flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
+	flex-direction: column;
 }
 .div2{
+	flex-direction: column;
+}
+.bottomSectionClass div{
 	display: flex;
 	justify-content: space-evenly;
-	flex-wrap: wrap;
 }
+.div3{
+	flex-direction: column;
+}
+.div4{
+	flex-direction: column;
+}
+.div5{
+	flex-direction: column;
+}
+.orgDiv{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin: 50px 0 50px 0;
+}
+.contact{
+	display: flex;
+	justify-content: left;
+}
+
